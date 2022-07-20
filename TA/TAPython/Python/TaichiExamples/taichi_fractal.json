@@ -1,0 +1,24 @@
+{
+	"TabLabel": "Taichi Fractal",
+	"InitTabSize": [400, 250],
+	"InitTabPosition": [200, 100],
+    "InitPyCmd": "import TaichiExamples; chameleon_taichi_fractal = TaichiExamples.taichi_fractal.Taichi_fractal(%JsonPath)",
+    "Root": {
+        "SButton": {
+            "Text": "PlaceHolder Button",
+            "Content": {
+                "SHorizontalBox": {
+                    "Slots": [
+                        {
+                            "SImage": {
+                                "Aka": "taichi_fractal_image"
+                            }
+                        }
+                    ]
+                }
+            },
+            "OnClick": "chameleon_taichi_fractal.on_button_click()",
+            "OnTick": "chameleon_taichi_fractal.on_tick()"
+        }
+    }
+}
