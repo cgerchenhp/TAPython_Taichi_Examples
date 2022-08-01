@@ -9,7 +9,7 @@
 - unreal中安装并启用TAPython插件
 - 将TA目录中的内容合并到unreal工程目录中的TA目录中
 
-![taichi_fractal.gif](https://www.tacolor.xyz/images/G012_taichi_fractal.gif)
+![taichi_fractal.gif](taichi_fractal.gif)
 
 
 ### UE5中使用其他三方库的推荐做法：
